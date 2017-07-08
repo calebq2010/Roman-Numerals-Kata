@@ -1,0 +1,27 @@
+{
+  "name": "roman-numerals-kata",
+  "version": "1.0.0",
+  "description": "Roman Numerals Kata for Pillar Techonologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebq2010/roman-numerals-kata.git"
+  },
+  "keywords": [
+    "roman",
+    "numerals"
+  ],
+  "author": "Caleb Quinn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebq2010/roman-numerals-kata/issues"
+  },
+  "homepage": "https://github.com/calebq2010/roman-numerals-kata#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
