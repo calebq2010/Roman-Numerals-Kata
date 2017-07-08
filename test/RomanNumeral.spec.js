@@ -11,4 +11,8 @@ describe('Describe roman numeral kata', function() {
     it('Should return I when inputNumber is 1', function() {
         expect(romanNumeral(1)).to.equal("I");
     });
+
+    it('Should return II when inputNumber is 2', function() {
+        expect(romanNumeral(2)).to.equal("II");
+    });
 });

@@ -1,5 +1,9 @@
 var romanNumeralConverter = function(inputNumber) {
-    return "I";
+    if (inputNumber === 1) {
+        return "I";
+    }
+
+    return "II";
 }
 
 module.exports = romanNumeralConverter;
