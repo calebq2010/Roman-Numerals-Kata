@@ -1,11 +1,16 @@
 var romanNumeralConverter = function(inputNumber) {
     var roman = "";
 
-    for (i = 0; i < inputNumber; i++) {
-        roman += "I";
+    if (inputNumber < 4) {
+
+        for (i = 0; i < inputNumber; i++) {
+            roman += "I";
+
+        }
+        return roman;
     }
 
-    return roman;
+    return "IV";
 }
 
 module.exports = romanNumeralConverter;
