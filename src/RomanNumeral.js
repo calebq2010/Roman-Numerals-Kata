@@ -1,11 +1,11 @@
 var romanNumeralConverter = function(inputNumber) {
-    if (inputNumber === 1) {
-        return "I";
-    } else if (inputNumber === 2) {
-        return "II";
+    var roman = "";
+
+    for (i = 0; i < inputNumber; i++) {
+        roman += "I";
     }
 
-    return "III";
+    return roman;
 }
 
 module.exports = romanNumeralConverter;
