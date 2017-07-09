@@ -1,7 +1,7 @@
 var romanNumeralConverter = function(inputNumber) {
     var roman = "";
     var romanNumbers = {
-        //"X": 10,
+        "X": 10,
         "V": 5,
         "IV": 4,
         "I": 1
@@ -10,13 +10,13 @@ var romanNumeralConverter = function(inputNumber) {
     for (var i in romanNumbers) {
         var romanValue = romanNumbers[i];
 
-        if (inputNumber == romanValue) {
-            roman = i;
-            return roman;
-        }
+        // if (inputNumber == romanValue) {
+        //     roman = i;
+        //     return roman;
+        // }
 
         while (inputNumber >= romanValue) {
-            roman += "I";
+            roman += i;
             inputNumber -= romanValue;
         }
 
